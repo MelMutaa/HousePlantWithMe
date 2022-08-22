@@ -8,34 +8,47 @@
 
  </head>
 
+ <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+ <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+ <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+
  <body>
 
-    <header>
-        <nav class="A-bar">
-            <h1>HousePlantWithMe</h1> <!--make both inline-->
-           
-            <ul class="group 1 nav">
-                <li><a href="#">Houseplants by Room</a></li>
-                <li><a href="#">Houseplant Benefits</a></li>
-                <li><a href="#">Most Popular Houseplants</a></li>
-                <li><a href="#">Find Your Perfect Houseplant</a></li>
-                <li><a href="#">Houseplant 101</a></li>
-                <li><a href="#">Tips and Tricks for Your Houseplant</a></li>
+    <div id="root">
+        <header>
     
-            </ul>
-        </nav>
-    </header>
-   
+            <h1>HousePlantWithMe</h1> 
     
-    <main>
+            <nav class="A-bar">
+                <ul class="group 1 nav">
+                    <li><a href="#">Houseplants by Room</a></li>
+                    <li><a href="#">Houseplant Benefits</a></li>
+                    <li><a href="#">Most Popular Houseplants</a></li>
+                    <li><a href="#">Find Your Perfect Houseplant</a></li>
+                    <li><a href="#">Houseplant 101</a></li>
+                    <li><a href="#">Tips and Tricks for Your Houseplant</a></li>
         
-        <h1>Welcome to HousePlantWithMe</h1>
-        <p>Lets start your Houseplant journey today</p>
-
-
-
-    </main>
-
-
+                </ul>
+            </nav>
+        </header>
+       
+        
+        
+        <main>
+            
+            <h1>Welcome to HousePlantWithMe</h1>
+            <p>Lets start your Houseplant journey today <a href="blank"></a></p>
+    
+    
+    
+        </main>
+    
+        <footer>
+    
+    
+        </footer>
+    
+    
+    </div>
  </body>
 </html>
