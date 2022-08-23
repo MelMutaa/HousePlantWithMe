@@ -1,54 +1,43 @@
 <!DOCTYPE html>
 <html>
+  <head>
+    <title>HousePlantWithMe</title>
+  </head>
 
+  <script
+    src="https://unpkg.com/react@18/umd/react.production.min.js"
+    crossorigin
+  ></script>
+  <script
+    src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js"
+    crossorigin
+  ></script>
+  <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
 
- <head>
-  
-  <title>HousePlantWithMe</title>
+  <body>
+    <div id="root"></div>
 
- </head>
+    <script type="text/babel"></script>
+    <header>
+      <h1>HousePlantWithMe</h1>
 
- <script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
- <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
- <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+      <nav class="A-bar">
+        <ul class="group 1 nav">
+          <li><a href="#">Houseplants by Room</a></li>
+          <li><a href="#">Houseplant Benefits</a></li>
+          <li><a href="#">Most Popular Houseplants</a></li>
+          <li><a href="#">Find Your Perfect Houseplant</a></li>
+          <li><a href="#">Houseplant 101</a></li>
+          <li><a href="#">Tips and Tricks for Your Houseplant</a></li>
+        </ul>
+      </nav>
+    </header>
 
- <body>
+    <main>
+      <h1>Welcome to HousePlantWithMe</h1>
+      <p>Lets start your Houseplant journey today <a href="blank"></a></p>
+    </main>
 
-    <div id="root">
-        <header>
-    
-            <h1>HousePlantWithMe</h1> 
-    
-            <nav class="A-bar">
-                <ul class="group 1 nav">
-                    <li><a href="#">Houseplants by Room</a></li>
-                    <li><a href="#">Houseplant Benefits</a></li>
-                    <li><a href="#">Most Popular Houseplants</a></li>
-                    <li><a href="#">Find Your Perfect Houseplant</a></li>
-                    <li><a href="#">Houseplant 101</a></li>
-                    <li><a href="#">Tips and Tricks for Your Houseplant</a></li>
-        
-                </ul>
-            </nav>
-        </header>
-       
-        
-        
-        <main>
-            
-            <h1>Welcome to HousePlantWithMe</h1>
-            <p>Lets start your Houseplant journey today <a href="blank"></a></p>
-    
-    
-    
-        </main>
-    
-        <footer>
-    
-    
-        </footer>
-    
-    
-    </div>
- </body>
+    <footer></footer>
+  </body>
 </html>
